@@ -52,12 +52,12 @@ include:
   # Totem + XIAO BLE
   - board: xiao_ble//zmk
     shield: totem_left
-    artifact-name: totem_left
+    artifact-name: totem_sL-slnm
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: xiao_ble//zmk
     shield: totem_right
-    artifact-name: totem_right
+    artifact-name: totem_sR-slnm
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   # # Corne + nice!nano v2
