@@ -136,22 +136,12 @@ include:
   # Resets
   ##
 
-  # Totem + XIAO BLE
+  # XIAO BLE (Totem)
   - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: totem_settings_reset
 
-  # Corne + nice!nano v2
+  # nice!nano v2 (Corne, Sweep, Lily58)
   - board: nice_nano@2//zmk
     shield: settings_reset
     artifact-name: corne_settings_reset
-
-  # Sweep + nice!nano v2
-  - board: nice_nano@2//zmk
-    shield: settings_reset
-    artifact-name: sweep_settings_reset
-
-  # Lily58 + nice!nano v2
-  - board: nice_nano@2//zmk
-    shield: settings_reset
-    artifact-name: lily58_settings_reset
