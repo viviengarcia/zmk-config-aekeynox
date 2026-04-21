@@ -149,7 +149,7 @@ include:
   # Sweep + nice!nano v2
   - board: nice_nano@2//zmk
     shield: settings_reset
-    artifact-name: cradio_settings_reset
+    artifact-name: sweep_settings_reset
 
   # Lily58 + nice!nano v2
   - board: nice_nano@2//zmk
